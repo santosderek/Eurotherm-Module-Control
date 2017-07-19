@@ -1,0 +1,14 @@
+COM = 'COM6'
+
+
+# Address of SP SELECT
+SP_SELECT_ADDRESS = 15
+
+# Defualt Value of SP SELECT
+SP_SELECT_DEFAULT = 0
+
+# Address of SP_VALUE_ADDRESS; Varies depending on SP_SELECT_DEFAULT
+if SP_SELECT_DEFAULT == 0:
+    SP_VALUE_ADDRESS = 24
+elif SP_SELECT_DEFAULT == 1:
+    SP_VALUE_ADDRESS = 25
