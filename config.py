@@ -1,14 +1,10 @@
-COM = 'COM6'
+configuration = {
+    'port': 'COM6',
+    'value_address': 1,
+    'sp_select_default': 0,
+    'sp_select_address': 15,
+    'sp_value_address': 24,
+    'sp_high_limit': 111,
+    'sp_low_limit': 112
 
-
-# Address of SP SELECT
-SP_SELECT_ADDRESS = 15
-
-# Defualt Value of SP SELECT
-SP_SELECT_DEFAULT = 0
-
-# Address of SP_VALUE_ADDRESS; Varies depending on SP_SELECT_DEFAULT
-if SP_SELECT_DEFAULT == 0:
-    SP_VALUE_ADDRESS = 24
-elif SP_SELECT_DEFAULT == 1:
-    SP_VALUE_ADDRESS = 25
+}

@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# Python related
+test.py
+.idea
+__pycache__
+.idea/vcs.xml
+__pycache__/config.cpython-35.pyc
+.ftpconfig
